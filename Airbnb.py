@@ -3,10 +3,16 @@ import streamlit as st
 from PIL import Image
 #--------------LIBRERÍAS--------------#
 
+custom_theme = {
+    'base':"light",
+    'primaryColor':"#ff0000",
+    "secondaryBackgroundColor": "#ffcbcb"
+}
+
 #----------------------------CONFIGURACIÓN DE PÁGINAS----------------------------#
 # Tenemos dos opciones de layout, wide or center. Wide te lo adapta a la ventana
 # mientras que center, lo centra.
-st.set_page_config(page_title='Toronto Airbnb', page_icon='🐻', layout='centered')
+st.set_page_config(page_title='Toronto Airbnb', page_icon='🐻', layout='centered', theme=custom_theme)
 st.set_option('deprecation.showPyplotGlobalUse', False)
 #----------------------------CONFIGURACIÓN DE PÁGINAS----------------------------#
 
