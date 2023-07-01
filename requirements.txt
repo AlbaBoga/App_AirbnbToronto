@@ -12,3 +12,4 @@ nltk
 wordcloud
 pycaret
 streamlit
+streamlit_folium

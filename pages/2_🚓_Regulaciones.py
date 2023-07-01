@@ -1,39 +1,20 @@
 #--------------LIBRERÍAS--------------#
 import numpy as np
 import pandas as pd
-import seaborn as sns
-sns.set()
-import matplotlib.pyplot as plt
 
-import os
-import json
+
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
-# mapas interactivos
-import folium
-from folium.plugins import FastMarkerCluster
-import geopandas as gpd
-from branca.colormap import LinearColormap
+
 
 #to make the plotly graphs
 import plotly.graph_objs as go
-import chart_studio.plotly as py
-from plotly.offline import iplot, init_notebook_mode
-import cufflinks
-cufflinks.go_offline(connected=True)
-init_notebook_mode(connected=True)
 import plotly.express as px
 
-#text mining
-from nltk.tokenize import word_tokenize
-from nltk.corpus import stopwords
-import re
-from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
-from wordcloud import WordCloud
 import streamlit as st
 from PIL import Image
-from streamlit_folium import st_folium
+
 #--------------LIBRERÍAS--------------#
 
 #----------------------------CONFIGURACIÓN DE PÁGINAS----------------------------#
