@@ -13,4 +13,3 @@ wordcloud
 pycaret
 streamlit
 streamlit_folium
-pycaret.internal.preprocess.transformers

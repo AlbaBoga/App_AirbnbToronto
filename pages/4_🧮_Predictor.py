@@ -4,7 +4,6 @@ import pandas as pd
 import streamlit as st
 from PIL import Image
 from pycaret.regression import *
-import pycaret.internal.preprocess.transformers
 #--------------LIBRERÍAS--------------#
 
 #----------------------------CONFIGURACIÓN DE PÁGINAS----------------------------#
