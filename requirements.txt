@@ -3,8 +3,6 @@ pandas
 matplotlib
 plotly
 scikit-learn
-json
-warnings
 requests
 folium
 geopandas
