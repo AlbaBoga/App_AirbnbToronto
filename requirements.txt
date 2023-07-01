@@ -1,5 +1,5 @@
 numpy
-pandas<2.0.0
+pandas==2.0.2
 matplotlib
 plotly
 scikit-learn
@@ -10,6 +10,6 @@ branca
 cufflinks
 nltk
 wordcloud
-pycaret==3.0.2
+pycaret
 streamlit
 streamlit_folium
