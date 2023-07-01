@@ -12,7 +12,7 @@ custom_theme = {
 #----------------------------CONFIGURACIÓN DE PÁGINAS----------------------------#
 # Tenemos dos opciones de layout, wide or center. Wide te lo adapta a la ventana
 # mientras que center, lo centra.
-st.set_page_config(page_title='Toronto Airbnb', page_icon='🐻', layout='centered', theme=custom_theme)
+st.set_page_config(page_title='Toronto Airbnb', page_icon='🐻', layout='centered')
 st.set_option('deprecation.showPyplotGlobalUse', False)
 #----------------------------CONFIGURACIÓN DE PÁGINAS----------------------------#
 
