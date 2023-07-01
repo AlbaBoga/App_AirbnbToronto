@@ -11,3 +11,4 @@ cufflinks
 nltk
 wordcloud
 pycaret
+streamlit
