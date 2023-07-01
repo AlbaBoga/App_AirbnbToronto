@@ -1,5 +1,5 @@
 numpy
-pandas>=1.6
+pandas>=1.5
 matplotlib
 plotly
 scikit-learn
