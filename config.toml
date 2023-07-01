@@ -1,4 +1,11 @@
+[general]
+email = "alba.m.boga@gmail.com"
+
 [theme]
 base="light"
 primaryColor="#ff0000"
 secondaryBackgroundColor="#ffcbcb"
+
+[server]
+headless = true
+enableCORS = false
