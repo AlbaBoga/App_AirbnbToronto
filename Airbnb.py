@@ -3,12 +3,6 @@ import streamlit as st
 from PIL import Image
 #--------------LIBRERÍAS--------------#
 
-custom_theme = {
-    'base':"light",
-    'primaryColor':"#ff0000",
-    "secondaryBackgroundColor": "#ffcbcb"
-}
-
 #----------------------------CONFIGURACIÓN DE PÁGINAS----------------------------#
 # Tenemos dos opciones de layout, wide or center. Wide te lo adapta a la ventana
 # mientras que center, lo centra.
