@@ -84,7 +84,7 @@ with tab1:
         st.write(numero_d)
     with col2:
         numero_d=listings['District'].value_counts().sort_values(ascending=True).reset_index(name='count')
-        fig=px.bar(x=numero_d['count'], y=numero_d['District'], orientation='h', color=numero_d['District'],title = "Número de ofertas por área", template= "plotly_dark", color_discrete_sequence=['#3944BC','#757C88','#281E5D','#1520A6','#022D36','#1F456E'])
+        fig=px.bar(data_frame=numero_d,x='count', y='District', orientation='h', color='District',title = "Número de ofertas por área", template= "plotly_dark", color_discrete_sequence=['#3944BC','#757C88','#281E5D','#1520A6','#022D36','#1F456E'])
         fig.update_layout(
             xaxis_title="Número de ofertas",
             yaxis_title="Área"
