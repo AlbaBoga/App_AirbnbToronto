@@ -2,6 +2,7 @@
 
 ## Contenido
 
+* [Enlace a la sección](https://github.com/AlbaBoga/DataAnalyticsPorfolio/tree/main/Project_AirbnbToronto)
 * Programación en `Python`.
 * Análisis de los datos pertenecientes a las ofertas de Airbnb Toronto, obtenido de la web [Inside Airbnb](http://insideairbnb.com/toronto)
 * Preprocesamiento de los datos, buscando valores nulos, valores duplicados y limpieza de columnas pertinentes.
