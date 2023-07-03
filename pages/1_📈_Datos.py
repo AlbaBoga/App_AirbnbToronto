@@ -76,14 +76,14 @@ tab1, tab2 = st.tabs(['Número de ofertas', 'Precio total por estancia'])
 with tab1:
     col1,col2,col3 = st.columns(3)
     with col1:
-        numero_d=listings['District'].value_counts().sort_values(ascending=False).reset_index(name='count')
+        numero_d=listings['District'].value_counts().sort_values(ascending=False).reset_index()
         numero_d['percent']=None
         for i in numero_d.index:
             numero_d.loc[i,'percent']=(numero_d.loc[i,'count']*100)/numero_d['count'].sum()
         numero_d['percent']=numero_d['percent'].apply(lambda x: np.round(x,2))
         st.write(numero_d)
     with col2:
-        numero_d=listings['District'].value_counts().sort_values(ascending=True).reset_index(name='count')
+        numero_d=listings['District'].value_counts().sort_values(ascending=True).reset_index()
         fig=px.bar(data_frame=numero_d,x='count', y='District', orientation='h', color='District',title = "Número de ofertas por área", template= "plotly_dark", color_discrete_sequence=['#3944BC','#757C88','#281E5D','#1520A6','#022D36','#1F456E'])
         fig.update_layout(
             xaxis_title="Número de ofertas",
@@ -94,7 +94,7 @@ with tab1:
 with tab2:
     col1,col2,col3 = st.columns(3)
     with col1:
-        avg_price_d=listings.groupby('District')[['price','minimum_nights']].mean().sort_values(by='price', ascending=False).reset_index(name='count')
+        avg_price_d=listings.groupby('District')[['price','minimum_nights']].mean().sort_values(by='price', ascending=False).reset_index()
         avg_price_d['total_price']=None
         for i in avg_price_d.index:
             avg_price_d.loc[i,'total_price']=avg_price_d.loc[i,'price']*np.ceil(avg_price_d.loc[i,'minimum_nights'])
