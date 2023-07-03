@@ -1,5 +1,5 @@
 numpy
-pandas
+pandas>=2.0.2
 matplotlib
 plotly
 scikit-learn
@@ -10,6 +10,5 @@ branca
 cufflinks
 nltk
 wordcloud
-pycaret
 streamlit
 streamlit_folium
