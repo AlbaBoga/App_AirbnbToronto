@@ -14,7 +14,8 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 st.title('Estimador para posibles ofertas')
 
 if st.button('Redirección 👈'):
-    pass
+    link = 'https://predictorairbnb.streamlit.app/'
+    st.markdown(f'<a href="{link}">Predictor</a>', unsafe_allow_html=True)
 else:
     st.write('📝 Estimando ... ')
 
