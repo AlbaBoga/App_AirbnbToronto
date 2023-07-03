@@ -18,8 +18,6 @@ if st.button('Redirección 👈'):
 else:
     st.write('📝 Estimando ... ')
 
-
-
 #--------------------------------------SIDEBAR-------------------------------------#
 
 image1 = Image.open('img/flagToronto.png')
