@@ -52,7 +52,7 @@ if selected_page=='Conclusiones':
 else:
     st.title('Resumen de los datos')
 
-    link = '<iframe title="AIRBNBTORONTO" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=191c2593-4c17-48a7-9b56-a1d00db5ae7c&autoAuth=true&ctid=8aebddb6-3418-43a1-a255-b964186ecc64" frameborder="0" allowFullScreen="true"></iframe>'
+    link = '<iframe title="Report Section" width="1024" height="1060" src="https://app.powerbi.com/view?r=eyJrIjoiMzBmMTAxZmMtZWVlMC00NGQ2LWFkYjYtZTAwOTkzZTFkYTRkIiwidCI6IjhhZWJkZGI2LTM0MTgtNDNhMS1hMjU1LWI5NjQxODZlY2M2NCIsImMiOjl9" frameborder="0" allowFullScreen="true"></iframe>'
 
     st.markdown(link, unsafe_allow_html=True)
 
