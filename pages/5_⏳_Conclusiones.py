@@ -28,7 +28,7 @@ listings = pd.read_csv("data/listings_final.csv")
 #---------------------------------------------------------------COSAS QUE VAMOS A USAR EN TODA LA APP---------------------------------------------------------------#
 st.sidebar.title('Menú 🐻')
 
-pages=['Conclusiones', 'Resumen de los datos']
+pages=['Resumen de los datos','Conclusiones']
 
 selected_page = st.sidebar.selectbox("Seleccione:", pages)
 
